@@ -14,6 +14,7 @@ for i in dict:
             max = i["price"]
         if i["price"] < min:
             min = i["price"]
+            
 print('jacketの個数=',c)
 print('jacketの最高価格=',max)
 print('jacketの最低価格=',min)
