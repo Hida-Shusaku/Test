@@ -15,6 +15,7 @@ with zipfile.ZipFile("kabeposter.zip", "r") as zf:
                     a = dict["people"]
         except:
             pass
+
 root = tk.Tk()
 root.title('Image')
 root.geometry("800x600")
@@ -34,5 +35,6 @@ for j in a:
 
     canvas.create_line(b[3]/2, b[4]/2, b[6]/2, b[7]/2)
     canvas.create_line(b[3]/2, b[4]/2, b[15]/2, b[16]/2)
+
 
 root.mainloop()
